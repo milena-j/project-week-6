@@ -1,0 +1,29 @@
+@import "override";
+
+/* stile back office */
+
+.img-back-office {
+    width: 50px;
+}
+
+/* stile home */
+
+
+
+/* stile pagina dettaglio */
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    #productContainer {
+        flex-direction: column;
+    }
+
+    .img-detail {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 426px) {
+    .img-detail {
+        width: 47.5%;
+    }
+}
